@@ -30,7 +30,7 @@ body {
   padding-right: 24px;
   border-radius: 4px;
   user-select: none;
-  background-color: #fff;
+  background-color: #001122;
   box-sizing: border-box;
   outline: none; }
   .green-audio-player.player-accessible .play-pause-btn:hover,
@@ -66,7 +66,7 @@ body {
     cursor: pointer;
     position: relative; }
     .green-audio-player .slider .gap-progress {
-      background-color: #44bfa3;
+      background-color: #fff;
       border-radius: inherit;
       position: absolute;
       pointer-events: none; }
@@ -74,7 +74,7 @@ body {
         height: 16px;
         width: 16px;
         border-radius: 8px;
-        background-color: #44bfa3;
+        background-color: #fff;
         position: absolute;
         pointer-events: all;
         box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.32); }
@@ -122,7 +122,7 @@ body {
       .green-audio-player .volume .volume__button:focus {
         outline: none; }
       .green-audio-player .volume .volume__button.open path {
-        fill: #44bfa3; }
+        fill: #fff; }
     .green-audio-player .volume .volume__controls {
       width: 30px;
       height: 135px;
