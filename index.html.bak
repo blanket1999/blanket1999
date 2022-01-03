@@ -7,13 +7,21 @@
 <body>
 <img id="BerserkLogo" src="images/BerserkLogo2.png" class="center">
 
-<div class="gap-GutsTheme">
+<div class="gap-GutsTheme30min">
     <audio>
         <source src="sounds/GutsTheme30min.mp3" type="audio/mpeg">
     </audio>
 </div>
-<script src="Player.js"></script>
+<div class="gap-GutsTheme">
+    <audio>
+        <source src="sounds/GutsTheme.mp3" type="audio/mpeg">
+    </audio>
+</div>
+
+
+<script src="Player.js">
 <script>
+new GreenAudioPlayer('.gap-GutsTheme30min');
 new GreenAudioPlayer('.gap-GutsTheme');
 </script>
 
