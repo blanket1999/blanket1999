@@ -50,7 +50,7 @@ body {
       bottom: 2px;
       width: 16px;
       height: 16px;
-      border: 2px solid #b0b0b0;
+      border: 0px solid #b0b0b0;
       border-right-color: rgba(0, 0, 0, 0);
       border-radius: 50%;
       animation: spin 0.4s linear infinite; }
@@ -66,7 +66,7 @@ body {
     cursor: pointer;
     position: relative; }
     .green-audio-player .slider .gap-progress {
-      background-color: #44bfa3;
+      background-color: #fff;
       border-radius: inherit;
       position: absolute;
       pointer-events: none; }
@@ -122,7 +122,7 @@ body {
       .green-audio-player .volume .volume__button:focus {
         outline: none; }
       .green-audio-player .volume .volume__button.open path {
-        fill: #44bfa3; }
+        fill: #fff; }
     .green-audio-player .volume .volume__controls {
       width: 30px;
       height: 135px;
